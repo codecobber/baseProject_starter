@@ -1,7 +1,7 @@
 <?php
 
 define('SITEROOT','/CraigsResources/BASE/');
-define('SEO',$_SERVER['DOCUMENT_ROOT'] . '/CraigsResources/BASE/includes/seo.php');
+define('SEO',$_SERVER['DOCUMENT_ROOT'] . '/Resources/BASE/includes/seo.php');
 //echo $_SERVER['DOCUMENT_ROOT'];
 
 ?>
@@ -49,7 +49,7 @@ define('SEO',$_SERVER['DOCUMENT_ROOT'] . '/CraigsResources/BASE/includes/seo.php
 	    <meta name="keywords" lang="en" content="<?php echo $keywords?>" />
 	    <meta name="robots" content="all,index,follow" />
 	    <meta name="googlebot" content="all,index,follow" />
-	    <meta name="generator" content="Bluefish 2.2.2" />
+	 
 
 
 	<!-- Facebook og settings -->
@@ -68,7 +68,7 @@ define('SEO',$_SERVER['DOCUMENT_ROOT'] . '/CraigsResources/BASE/includes/seo.php
 	    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
 
     <!-- Font Awesome -->
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 
 	<!-- Google plus code -->
@@ -77,7 +77,7 @@ define('SEO',$_SERVER['DOCUMENT_ROOT'] . '/CraigsResources/BASE/includes/seo.php
 	<!-- ICONS -->
 	    <link rel="canonical" href="http://www.projectName.co.uk/" >
 
-      <link rel="shortcut icon" type="image/x-icon" href="<?php echo SITEROOT.'img/favicon.ico';?>" >
+      	    <link rel="shortcut icon" type="image/x-icon" href="<?php echo SITEROOT.'img/favicon.ico';?>" >
 	    <link rel="icon" type="image/png" href="<?php echo SITEROOT.'img/favicon.png'; ?>" >
 
 
